@@ -21,7 +21,6 @@
     box-sizing: border-box;
 }
 
-
 h1,
 h2,
 h3,
@@ -88,11 +87,13 @@ img {
 
 .text--lg {
     font-size: 1.2rem;
+    font-weight: var(--fw-600);
     line-height: 1.1;
 }
 
 .text--md {
     font-size: 1rem;
+    font-weight: var(--fw-600);
 }
 
 .grid {
@@ -119,6 +120,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 .testimonial__card {
     padding: 1.8em;
